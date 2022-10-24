@@ -1,0 +1,8 @@
+.bg-light {
+  background-color: #B4F8C8 !important;
+}
+
+.nav-item:active,
+.nav-item:hover {
+  background-color: #A0E7E5 !important;
+}

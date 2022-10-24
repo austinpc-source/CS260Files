@@ -1,0 +1,46 @@
+.page {
+    background-color: #707070;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.warning-sign {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ul {
+   background-color: white;
+   padding: 15px 15px 15px 0px;
+   list-style-type: none;
+   overflow: hidden;
+   margin: 0 auto;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    padding: 16px;
+    background-color: green;
+    text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+    background-color: #27d342;
+    color: white;
+}
+
+a:active, a:visited:active {
+    background-color: #27d342;
+    color: red;
+}
+
+#header1,
+#header2,
+#header3 {
+    color: blue;
+}
