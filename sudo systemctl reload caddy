@@ -1,0 +1,17 @@
+[0;1;31m●[0m caddy.service - Caddy
+   Loaded: loaded (/lib/systemd/system/caddy.service; enabled; vendor preset: enabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Wed 2022-11-02 07:25:37 UTC; 3min 50s ago
+     Docs: https://caddyserver.com/docs/
+  Process: 31378 ExecStart=/usr/bin/caddy run --environ --config /etc/caddy/Caddyfile [0;1;31m(code=exited, status=1/FAILURE)[0m
+ Main PID: 31378 (code=exited, status=1/FAILURE)
+
+Nov 02 07:25:37 ip-172-31-9-252 caddy[31378]: USER=caddy
+Nov 02 07:25:37 ip-172-31-9-252 caddy[31378]: INVOCATION_ID=95a6819e48ba417698ce8fd48e83fb5c
+Nov 02 07:25:37 ip-172-31-9-252 caddy[31378]: JOURNAL_STREAM=9:1495459
+Nov 02 07:25:37 ip-172-31-9-252 caddy[31378]: {"level":"info","ts":1667373937.8010392,"msg":"using provided configuration","config_file":"/etc/caddy/Caddyfile","config_adapter":""}
+Nov 02 07:25:37 ip-172-31-9-252 systemd[1]: Started Caddy.
+Nov 02 07:25:37 ip-172-31-9-252 caddy[31378]: run: loading initial config: loading new config: starting caddy administration endpoint: listen tcp 127.0.0.1:2019: bind: address already in use
+Nov 02 07:25:37 ip-172-31-9-252 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcaddy.service: Main process exited, code=exited, status=1/FAILURE[0m
+Nov 02 07:25:37 ip-172-31-9-252 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcaddy.service: Failed with result 'exit-code'.[0m
+Nov 02 07:25:43 ip-172-31-9-252 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcaddy.service: Unit cannot be reloaded because it is inactive.[0m
+Nov 02 07:27:03 ip-172-31-9-252 systemd[1]: [0;1;39m[0;1;31m[0;1;39mcaddy.service: Unit cannot be reloaded because it is inactive.[0m
